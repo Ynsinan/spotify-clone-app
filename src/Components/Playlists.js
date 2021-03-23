@@ -103,7 +103,7 @@ const Playlists = (props) => {
     return (
         <div className="cardWrapInner">
             {matchedPlaylists.map((playlist, id) => (
-                <Link to={`/playlist/` + playlist.id}>
+                <Link key={id} to={`/playlist/` + playlist.id}>
                     <div className="card" key={id}>
                         <div className="cardImage">
                             <img src={playlist.img} alt="pic 1" />

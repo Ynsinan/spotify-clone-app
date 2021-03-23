@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect } from 'react'
+
 import Categories from './Categories'
 import { Switch, Route } from 'react-router-dom'
 import PlaylistPage from './pages/Playlist'

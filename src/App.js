@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './Components/Navbar';
 import Main from './Components/Main';
+import Player from './Components/Player'
 import './App.scss';
 
 const App = () => {
@@ -10,7 +11,8 @@ const App = () => {
         <Navbar />
         <Main />
       </div>
-      <div className="musicControls">Music Controls</div>
+      {/* <div className="musicControls">Music Controls</div> */}
+      <Player className="musicControls" />
     </div>
 
   );
